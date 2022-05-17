@@ -10,7 +10,7 @@ question_prompts = [
      "how do you say hi how are you in moari?\n(a) hi kei te pehea koe\n(b) he pop koe ", 
      "what is cat in maori?\n(a) ngeru \n(b) kuri "
 ]
- 
+  
 questions = [
      Question(question_prompts[0], "a"),
      Question(question_prompts[1], "b"),
