@@ -24,7 +24,7 @@ def run_quiz(questions):
      for question in questions:
           answer = input(question.prompt)
           if answer == question.answer:
-               score += 1
+               score += 1  
      print("you got", score, "out of", len(questions))
 
 run_quiz(questions) 
