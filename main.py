@@ -1,3 +1,4 @@
+#this is what makes the code 'activate' the questions
 class Question:
      def __init__(self, prompt, answer):
           self.prompt = prompt
